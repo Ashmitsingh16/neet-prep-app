@@ -1,0 +1,962 @@
+[
+  {
+    "question": "The dimensional formula of surface tension is:",
+    "options": {
+      "A": "[ML⁰T⁻²]",
+      "B": "[MLT⁻²]",
+      "C": "[ML⁻¹T⁻²]",
+      "D": "[M⁰LT⁻²]"
+    },
+    "correct_answer": "A",
+    "explanation": "Surface tension = Force/Length = [MLT⁻²]/[L] = [MT⁻²] = [ML⁰T⁻²].",
+    "subject": "Physics",
+    "chapter": "Units and Measurements",
+    "topic": "Dimensional Analysis",
+    "question_type": "MCQ",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In an experiment, the percentage errors in measurement of mass, length and time are 1%, 2% and 3% respectively. The maximum percentage error in the value of force (F = ma = m × L/T²) is:",
+    "options": {
+      "A": "9%",
+      "B": "6%",
+      "C": "10%",
+      "D": "8%"
+    },
+    "correct_answer": "A",
+    "explanation": "F = mLT⁻². Percentage error in F = %error in m + %error in L + 2 × %error in T = 1 + 2 + 2(3) = 9%.",
+    "subject": "Physics",
+    "chapter": "Units and Measurements",
+    "topic": "Error Analysis",
+    "question_type": "Numerical",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "A physical quantity Q is given by Q = A²B³/(C⁴D½). If the percentage errors in A, B, C and D are 1%, 2%, 3% and 4% respectively, the maximum percentage error in Q is:",
+    "options": {
+      "A": "22%",
+      "B": "20%",
+      "C": "14%",
+      "D": "26%"
+    },
+    "correct_answer": "A",
+    "explanation": "Maximum percentage error in Q = 2(ΔA/A) + 3(ΔB/B) + 4(ΔC/C) + ½(ΔD/D) = 2(1) + 3(2) + 4(3) + 0.5(4) = 2 + 6 + 12 + 2 = 22%.",
+    "subject": "Physics",
+    "chapter": "Units and Measurements",
+    "topic": "Error Analysis",
+    "question_type": "Numerical",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "The excess pressure inside a soap bubble of radius 1 cm is (surface tension of soap solution = 0.03 N/m):",
+    "options": {
+      "A": "12 Pa",
+      "B": "6 Pa",
+      "C": "24 Pa",
+      "D": "3 Pa"
+    },
+    "correct_answer": "A",
+    "explanation": "Excess pressure inside soap bubble = 4T/r = 4 × 0.03 / 0.01 = 12 Pa. For a soap bubble, factor is 4T/r (two surfaces), unlike a liquid drop which is 2T/r.",
+    "subject": "Physics",
+    "chapter": "Properties of Solids and Liquids",
+    "topic": "Surface Tension",
+    "question_type": "Numerical",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "A steel wire of length 2 m and cross-sectional area 2 mm² is stretched by 1 mm under a load. If Young's modulus of steel is 2 × 10¹¹ N/m², the load applied is:",
+    "options": {
+      "A": "200 N",
+      "B": "100 N",
+      "C": "400 N",
+      "D": "50 N"
+    },
+    "correct_answer": "A",
+    "explanation": "Y = (F × L)/(A × ΔL). F = Y × A × ΔL / L = 2×10¹¹ × 2×10⁻⁶ × 1×10⁻³ / 2 = 200 N.",
+    "subject": "Physics",
+    "chapter": "Properties of Solids and Liquids",
+    "topic": "Elasticity",
+    "question_type": "Numerical",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "A spherical ball of radius 1 mm and density 7800 kg/m³ falls through a liquid of viscosity 0.1 Pa·s and density 1200 kg/m³. The terminal velocity of the ball is (g = 10 m/s²):",
+    "options": {
+      "A": "1.47 × 10⁻² m/s",
+      "B": "2.94 × 10⁻² m/s",
+      "C": "7.33 × 10⁻³ m/s",
+      "D": "5.87 × 10⁻² m/s"
+    },
+    "correct_answer": "A",
+    "explanation": "Terminal velocity vₜ = 2r²(ρ - σ)g / 9η = 2 × (10⁻³)² × (7800 - 1200) × 10 / (9 × 0.1) = 2 × 10⁻⁶ × 6600 × 10 / 0.9 = 0.132/0.9 = 0.1467/10 = 1.47 × 10⁻² m/s.",
+    "subject": "Physics",
+    "chapter": "Properties of Solids and Liquids",
+    "topic": "Viscosity",
+    "question_type": "Numerical",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "The electric potential at a point on the equatorial plane of a short dipole at distance r from its centre is:",
+    "options": {
+      "A": "Zero",
+      "B": "kp/r²",
+      "C": "2kp/r³",
+      "D": "kp/r³"
+    },
+    "correct_answer": "A",
+    "explanation": "At equatorial point, the potentials due to +q and -q charges are equal in magnitude but opposite in sign. Hence net potential = 0. This is because the equatorial point is equidistant from both charges of the dipole.",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Electric Dipole",
+    "question_type": "MCQ",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "A parallel plate capacitor of capacitance C is charged to potential V. It is then connected to an uncharged capacitor of capacitance 2C. The electrostatic energy lost in the process is:",
+    "options": {
+      "A": "CV²/3",
+      "B": "CV²/2",
+      "C": "CV²/6",
+      "D": "CV²/4"
+    },
+    "correct_answer": "A",
+    "explanation": "Initial energy Ui = ½CV². Initial charge Q = CV. Common potential after connection V' = Q/(C+2C) = V/3. Final energy Uf = ½(C+2C)(V/3)² = ½(3C)(V²/9) = CV²/6. Energy lost = Ui - Uf = CV²/2 - CV²/6 = (3CV² - CV²)/6 = 2CV²/6 = CV²/3.",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "topic": "Capacitance",
+    "question_type": "Numerical",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "A battery of EMF 6V and internal resistance 0.5Ω is connected to three resistors of 3Ω each connected in parallel. The current drawn from the battery is:",
+    "options": {
+      "A": "4 A",
+      "B": "2 A",
+      "C": "6 A",
+      "D": "3 A"
+    },
+    "correct_answer": "A",
+    "explanation": "Three 3Ω resistors in parallel: R_eq = 3/3 = 1Ω. Total resistance = 1 + 0.5 = 1.5Ω. Current I = E/(R + r) = 6/1.5 = 4 A.",
+    "subject": "Physics",
+    "chapter": "Current Electricity",
+    "topic": "Circuits",
+    "question_type": "Numerical",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Two cells of EMF 1.5V and 2V with internal resistances 1Ω and 2Ω respectively are connected in parallel. The equivalent EMF of the combination is:",
+    "options": {
+      "A": "5/3 V",
+      "B": "3.5 V",
+      "C": "1.75 V",
+      "D": "7/4 V"
+    },
+    "correct_answer": "A",
+    "explanation": "For cells in parallel: E_eq = (E₁/r₁ + E₂/r₂)/(1/r₁ + 1/r₂) = (1.5/1 + 2/2)/(1/1 + 1/2) = (1.5 + 1)/(1.5) = 2.5/1.5 = 5/3 V.",
+    "subject": "Physics",
+    "chapter": "Current Electricity",
+    "topic": "Combination of Cells",
+    "question_type": "Numerical",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "A metallic ring of area 25 cm² is placed perpendicular to a magnetic field which changes at a rate of 4 T/s. The induced EMF in the ring is:",
+    "options": {
+      "A": "0.01 V",
+      "B": "0.1 V",
+      "C": "1 V",
+      "D": "100 V"
+    },
+    "correct_answer": "A",
+    "explanation": "ε = -dΦ/dt = -A(dB/dt) = 25 × 10⁻⁴ × 4 = 0.01 V = 10 mV.",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction and Alternating Currents",
+    "topic": "Faraday's Law",
+    "question_type": "Numerical",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In a series LCR circuit, R = 100Ω, L = 0.5 H, C = 50 μF, and the source voltage is 200V (rms) at resonant frequency. The power dissipated in the circuit is:",
+    "options": {
+      "A": "400 W",
+      "B": "200 W",
+      "C": "100 W",
+      "D": "800 W"
+    },
+    "correct_answer": "A",
+    "explanation": "At resonance, impedance Z = R = 100Ω. Power factor cosφ = 1. P = V²rms/R = (200)²/100 = 400 W. At resonance, XL = XC, so entire voltage drops across R.",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction and Alternating Currents",
+    "topic": "AC Circuits",
+    "question_type": "Numerical",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Assertion (A): Spherical aberration in mirrors can be reduced by using parabolic mirrors.\nReason (R): In a parabolic mirror, all rays parallel to the axis converge at a single focus.\n\nChoose the correct option:",
+    "options": {
+      "A": "Both A and R are true, and R explains A",
+      "B": "Both A and R are true, but R does not explain A",
+      "C": "A is true but R is false",
+      "D": "A is false but R is true"
+    },
+    "correct_answer": "A",
+    "explanation": "Spherical mirrors do not converge all parallel rays to a single point (marginal rays focus at different point than paraxial rays). Parabolic mirrors have the geometric property that all parallel rays converge at a single focus, thus eliminating spherical aberration.",
+    "subject": "Physics",
+    "chapter": "Optics",
+    "topic": "Reflection and Aberrations",
+    "question_type": "Assertion-Reason",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Young's double slit experiment, the fringe width is β in air. If the entire apparatus is immersed in a liquid of refractive index 4/3, the new fringe width will be:",
+    "options": {
+      "A": "3β/4",
+      "B": "4β/3",
+      "C": "β/2",
+      "D": "β"
+    },
+    "correct_answer": "A",
+    "explanation": "Fringe width β = λD/d. In a medium of refractive index n, wavelength becomes λ' = λ/n. New fringe width β' = λ'D/d = (λ/n)D/d = β/n = β/(4/3) = 3β/4.",
+    "subject": "Physics",
+    "chapter": "Optics",
+    "topic": "Wave Optics",
+    "question_type": "Numerical",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Light of wavelength 400 nm is incident on a metal surface with work function 1.5 eV. The maximum kinetic energy of the emitted photoelectrons is: (h = 6.6 × 10⁻³⁴ Js, c = 3 × 10⁸ m/s)",
+    "options": {
+      "A": "1.6 eV",
+      "B": "0.6 eV",
+      "C": "3.1 eV",
+      "D": "1.1 eV"
+    },
+    "correct_answer": "A",
+    "explanation": "Energy of photon E = hc/λ = (6.6×10⁻³⁴ × 3×10⁸)/(400×10⁻⁹) = 4.95 × 10⁻¹⁹ J = 3.1 eV. KE_max = E - φ = 3.1 - 1.5 = 1.6 eV.",
+    "subject": "Physics",
+    "chapter": "Dual Nature of Matter and Radiation",
+    "topic": "Photoelectric Effect",
+    "question_type": "Numerical",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In a nuclear reaction: ₁²H + ₁²H → ₂³He + ₀¹n, if the masses are: ²H = 2.0141 u, ³He = 3.0160 u, ¹n = 1.0087 u, the Q-value of the reaction is (1 u = 931.5 MeV):",
+    "options": {
+      "A": "3.27 MeV",
+      "B": "1.64 MeV",
+      "C": "6.54 MeV",
+      "D": "0.82 MeV"
+    },
+    "correct_answer": "A",
+    "explanation": "Mass of reactants = 2 × 2.0141 = 4.0282 u. Mass of products = 3.0160 + 1.0087 = 4.0247 u. Mass defect Δm = 4.0282 - 4.0247 = 0.0035 u. Q = 0.0035 × 931.5 = 3.26 ≈ 3.27 MeV.",
+    "subject": "Physics",
+    "chapter": "Atoms and Nuclei",
+    "topic": "Nuclear Reactions",
+    "question_type": "Numerical",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In SHM, at what displacement from mean position is the kinetic energy equal to the potential energy?",
+    "options": {
+      "A": "A/√2",
+      "B": "A/2",
+      "C": "A/√3",
+      "D": "A/4"
+    },
+    "correct_answer": "A",
+    "explanation": "KE = ½mω²(A²-x²), PE = ½mω²x². When KE = PE: A²-x² = x², so 2x² = A², x = A/√2.",
+    "subject": "Physics",
+    "chapter": "Oscillations and Waves",
+    "topic": "SHM",
+    "question_type": "MCQ",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "An open organ pipe of length 50 cm resonates at its second overtone. The frequency of the note produced is (speed of sound = 340 m/s):",
+    "options": {
+      "A": "1020 Hz",
+      "B": "680 Hz",
+      "C": "340 Hz",
+      "D": "510 Hz"
+    },
+    "correct_answer": "A",
+    "explanation": "For open pipe: harmonics are f, 2f, 3f... Second overtone = 3rd harmonic = 3 × (v/2L) = 3 × 340/(2 × 0.5) = 3 × 340 = 1020 Hz.",
+    "subject": "Physics",
+    "chapter": "Oscillations and Waves",
+    "topic": "Sound Waves",
+    "question_type": "Numerical",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Assertion (A): Displacement current is produced in the region between the plates of a charging capacitor.\nReason (R): Displacement current arises due to time-varying electric field.\n\nChoose the correct option:",
+    "options": {
+      "A": "Both A and R are true, and R explains A",
+      "B": "Both A and R are true, but R does not explain A",
+      "C": "A is true but R is false",
+      "D": "A is false but R is true"
+    },
+    "correct_answer": "A",
+    "explanation": "Maxwell introduced displacement current Id = ε₀(dΦE/dt) to account for the continuity of current between capacitor plates where no conduction current flows. The changing electric field between the plates produces this displacement current.",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Waves",
+    "topic": "Displacement Current",
+    "question_type": "Assertion-Reason",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In an experiment using a Vernier caliper, the main scale reads 3.2 cm and the 6th Vernier division coincides with a main scale division. If the Vernier caliper has 50 divisions on the Vernier scale corresponding to 49 main scale divisions and 1 MSD = 1 mm, the measured length is:",
+    "options": {
+      "A": "3.212 cm",
+      "B": "3.26 cm",
+      "C": "3.206 cm",
+      "D": "3.260 cm"
+    },
+    "correct_answer": "A",
+    "explanation": "Least count = 1 MSD - 1 VSD = 1 mm - (49/50) mm = 0.02 mm. Reading = MSR + (VSR × LC) = 3.2 cm + (6 × 0.02 mm) = 3.2 cm + 0.12 mm = 3.2 cm + 0.012 cm = 3.212 cm.",
+    "subject": "Physics",
+    "chapter": "Experimental Skills",
+    "topic": "Vernier Caliper",
+    "question_type": "Numerical",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "The number of moles present in 11.2 L of a gas at STP is:",
+    "options": {
+      "A": "0.5",
+      "B": "1",
+      "C": "2",
+      "D": "0.25"
+    },
+    "correct_answer": "A",
+    "explanation": "At STP, 1 mole of any ideal gas occupies 22.4 L. Number of moles = 11.2/22.4 = 0.5 mol.",
+    "subject": "Chemistry",
+    "chapter": "Some Basic Concepts in Chemistry",
+    "topic": "Mole Concept",
+    "question_type": "Numerical",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "50 mL of 0.1 M H₂SO₄ is mixed with 50 mL of 0.1 M NaOH. The resulting solution is:",
+    "options": {
+      "A": "Acidic",
+      "B": "Neutral",
+      "C": "Basic",
+      "D": "Buffer"
+    },
+    "correct_answer": "A",
+    "explanation": "Millimoles of H₂SO₄ = 0.1 × 50 = 5 mmol. H₂SO₄ provides 10 mmol of H⁺ (diprotic acid). Millimoles of NaOH = 0.1 × 50 = 5 mmol of OH⁻. Excess H⁺ = 10 - 5 = 5 mmol. Solution is acidic.",
+    "subject": "Chemistry",
+    "chapter": "Some Basic Concepts in Chemistry",
+    "topic": "Stoichiometry",
+    "question_type": "MCQ",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "The equivalent weight of KMnO₄ in acidic medium is (molecular weight of KMnO₄ = 158):",
+    "options": {
+      "A": "31.6",
+      "B": "79",
+      "C": "52.67",
+      "D": "158"
+    },
+    "correct_answer": "A",
+    "explanation": "In acidic medium: MnO₄⁻ + 8H⁺ + 5e⁻ → Mn²⁺ + 4H₂O. Change in oxidation state (n-factor) = 5. Equivalent weight = Molecular weight/n-factor = 158/5 = 31.6.",
+    "subject": "Chemistry",
+    "chapter": "Some Basic Concepts in Chemistry",
+    "topic": "Equivalent Weight",
+    "question_type": "Numerical",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "SN2 reaction proceeds with:",
+    "options": {
+      "A": "Inversion of configuration",
+      "B": "Retention of configuration",
+      "C": "Racemization",
+      "D": "No change in configuration"
+    },
+    "correct_answer": "A",
+    "explanation": "In SN2 mechanism, the nucleophile attacks from the back side of the carbon bearing the leaving group, resulting in complete inversion of configuration (Walden inversion). It is a one-step bimolecular reaction.",
+    "subject": "Chemistry",
+    "chapter": "Organic Compounds Containing Halogens",
+    "topic": "Nucleophilic Substitution",
+    "question_type": "MCQ",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "When ethyl bromide is treated with magnesium in dry ether and the resulting product is hydrolysed, the final product is:",
+    "options": {
+      "A": "Ethane",
+      "B": "Ethanol",
+      "C": "Ethylene",
+      "D": "Diethyl ether"
+    },
+    "correct_answer": "A",
+    "explanation": "C₂H₅Br + Mg → C₂H₅MgBr (Grignard reagent, in dry ether). Hydrolysis: C₂H₅MgBr + H₂O → C₂H₆ + Mg(OH)Br. The Grignard reagent on hydrolysis gives an alkane.",
+    "subject": "Chemistry",
+    "chapter": "Organic Compounds Containing Halogens",
+    "topic": "Grignard Reagent",
+    "question_type": "MCQ",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "The reagent used to convert a primary alcohol to an aldehyde without further oxidation to carboxylic acid is:",
+    "options": {
+      "A": "PCC (Pyridinium chlorochromate)",
+      "B": "KMnO₄/H⁺",
+      "C": "K₂Cr₂O₇/H⁺",
+      "D": "Conc. HNO₃"
+    },
+    "correct_answer": "A",
+    "explanation": "PCC (C₅H₅NH⁺CrO₃Cl⁻) is a mild oxidising agent that selectively oxidises primary alcohols to aldehydes without overoxidation to carboxylic acids. Stronger reagents like KMnO₄ and K₂Cr₂O₇ would oxidise further to acids.",
+    "subject": "Chemistry",
+    "chapter": "Organic Compounds Containing Oxygen",
+    "topic": "Alcohols",
+    "question_type": "MCQ",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Aldol condensation occurs between two molecules of:",
+    "options": {
+      "A": "Acetaldehyde in presence of dilute NaOH",
+      "B": "Formaldehyde in presence of dilute NaOH",
+      "C": "Acetone in presence of conc. H₂SO₄",
+      "D": "Benzaldehyde in presence of dilute NaOH"
+    },
+    "correct_answer": "A",
+    "explanation": "Aldol condensation requires α-hydrogen atoms. Acetaldehyde (CH₃CHO) has α-H and undergoes aldol condensation with dilute NaOH to give 3-hydroxybutanal (aldol). Formaldehyde has no α-H and undergoes Cannizzaro reaction. Benzaldehyde also lacks α-H.",
+    "subject": "Chemistry",
+    "chapter": "Organic Compounds Containing Oxygen",
+    "topic": "Aldehydes and Ketones",
+    "question_type": "MCQ",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Among the following carboxylic acids, the correct order of acid strength is:",
+    "options": {
+      "A": "FCH₂COOH > ClCH₂COOH > BrCH₂COOH > CH₃COOH",
+      "B": "CH₃COOH > BrCH₂COOH > ClCH₂COOH > FCH₂COOH",
+      "C": "ClCH₂COOH > FCH₂COOH > BrCH₂COOH > CH₃COOH",
+      "D": "BrCH₂COOH > ClCH₂COOH > FCH₂COOH > CH₃COOH"
+    },
+    "correct_answer": "A",
+    "explanation": "Acid strength depends on the -I (electron withdrawing) effect of the substituent. Electronegativity order: F > Cl > Br > H. Greater -I effect stabilises the conjugate base (carboxylate ion) more, increasing acid strength. Hence FCH₂COOH > ClCH₂COOH > BrCH₂COOH > CH₃COOH.",
+    "subject": "Chemistry",
+    "chapter": "Organic Compounds Containing Oxygen",
+    "topic": "Carboxylic Acids",
+    "question_type": "MCQ",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Hofmann bromamide degradation reaction converts:",
+    "options": {
+      "A": "Amide to primary amine with one carbon less",
+      "B": "Amine to amide",
+      "C": "Amide to amine with same number of carbons",
+      "D": "Amine to nitrile"
+    },
+    "correct_answer": "A",
+    "explanation": "Hofmann bromamide reaction: RCONH₂ + Br₂ + 4NaOH → RNH₂ + Na₂CO₃ + 2NaBr + 2H₂O. The amine product has one carbon less than the parent amide. This is a degradation reaction.",
+    "subject": "Chemistry",
+    "chapter": "Organic Compounds Containing Nitrogen",
+    "topic": "Amines",
+    "question_type": "MCQ",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "A diazonium salt on treatment with cuprous cyanide (CuCN) in the presence of KCN gives:",
+    "options": {
+      "A": "Aryl cyanide (ArCN)",
+      "B": "Aryl isocyanide (ArNC)",
+      "C": "Aryl amine (ArNH₂)",
+      "D": "Aryl halide (ArCl)"
+    },
+    "correct_answer": "A",
+    "explanation": "This is Sandmeyer reaction with CuCN/KCN: ArN₂⁺ + CuCN/KCN → ArCN + N₂. The diazonium group is replaced by -CN to form aryl cyanide (nitrile). This is different from the reaction with CuCl (→ArCl) or CuBr (→ArBr).",
+    "subject": "Chemistry",
+    "chapter": "Organic Compounds Containing Nitrogen",
+    "topic": "Diazonium Salts",
+    "question_type": "MCQ",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "The freezing point depression of a 0.2 m aqueous solution of KCl is (Kf for water = 1.86 K·kg/mol, assuming complete dissociation):",
+    "options": {
+      "A": "0.744 K",
+      "B": "0.372 K",
+      "C": "1.116 K",
+      "D": "1.86 K"
+    },
+    "correct_answer": "A",
+    "explanation": "KCl → K⁺ + Cl⁻ (i = 2 for complete dissociation). ΔTf = i × Kf × m = 2 × 1.86 × 0.2 = 0.744 K.",
+    "subject": "Chemistry",
+    "chapter": "Solutions",
+    "topic": "Colligative Properties",
+    "question_type": "Numerical",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "An aqueous solution of 6 g of urea (M = 60) in 500 g of water gave a boiling point elevation of 0.0936°C. If Kb for water is 0.52 K·kg/mol, the observed van't Hoff factor is:",
+    "options": {
+      "A": "0.90",
+      "B": "1.0",
+      "C": "1.79",
+      "D": "2.0"
+    },
+    "correct_answer": "A",
+    "explanation": "Molality m = (6/60)/(500/1000) = 0.1/0.5 = 0.2 m. Expected ΔTb = Kb × m = 0.52 × 0.2 = 0.104°C. Observed ΔTb = 0.0936°C. Van't Hoff factor i = Observed ΔTb / Expected ΔTb = 0.0936/0.104 = 0.90. Since i < 1, this indicates association of urea molecules in solution.",
+    "subject": "Chemistry",
+    "chapter": "Solutions",
+    "topic": "Abnormal Molar Mass",
+    "question_type": "Numerical",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Transition metals form colored compounds because of:",
+    "options": {
+      "A": "d-d electronic transitions",
+      "B": "s-p transitions",
+      "C": "Large atomic size",
+      "D": "High ionization energy"
+    },
+    "correct_answer": "A",
+    "explanation": "In transition metal complexes, the d-orbitals split into different energy levels. Electrons undergo transitions between these split d-orbitals (d-d transitions), absorbing visible light. The transmitted complementary color is observed.",
+    "subject": "Chemistry",
+    "chapter": "d- and f-block Elements",
+    "topic": "Properties of Transition Elements",
+    "question_type": "MCQ",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In the complex [CoCl₂(en)₂]⁺, the number of possible geometrical isomers is:",
+    "options": {
+      "A": "2",
+      "B": "1",
+      "C": "3",
+      "D": "4"
+    },
+    "correct_answer": "A",
+    "explanation": "This is an octahedral complex of type [M(AA)₂X₂]⁺ where AA = en (bidentate). It has two geometrical isomers: cis (where the two Cl⁻ ligands are adjacent) and trans (where they are opposite). The cis form also shows optical isomerism.",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "topic": "Isomerism",
+    "question_type": "MCQ",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "The structural formula of hypophosphorous acid (H₃PO₂) contains:",
+    "options": {
+      "A": "One P-OH bond and two P-H bonds",
+      "B": "Two P-OH bonds and one P-H bond",
+      "C": "Three P-OH bonds",
+      "D": "One P-OH bond and one P-H bond"
+    },
+    "correct_answer": "A",
+    "explanation": "H₃PO₂ (hypophosphorous acid) has the structure with one P-OH, one P=O, and two P-H bonds. Only the hydrogen in P-OH is ionisable, making it a monobasic acid despite having three hydrogen atoms. The two P-H bonds are not ionisable.",
+    "subject": "Chemistry",
+    "chapter": "p-block Elements",
+    "topic": "Oxoacids of Phosphorus",
+    "question_type": "MCQ",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "The correct order of bond dissociation enthalpy of halogen molecules is:",
+    "options": {
+      "A": "Cl₂ > Br₂ > F₂ > I₂",
+      "B": "F₂ > Cl₂ > Br₂ > I₂",
+      "C": "I₂ > Br₂ > Cl₂ > F₂",
+      "D": "Cl₂ > F₂ > Br₂ > I₂"
+    },
+    "correct_answer": "A",
+    "explanation": "Bond dissociation enthalpy: Cl₂ (242 kJ) > Br₂ (192 kJ) > F₂ (158 kJ) > I₂ (151 kJ). F₂ has anomalously low value due to high electron-electron repulsion between lone pairs on the small, closely placed F atoms. Cl₂ has the highest value.",
+    "subject": "Chemistry",
+    "chapter": "p-block Elements",
+    "topic": "Halogens",
+    "question_type": "MCQ",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "A buffer solution is prepared by mixing 0.1 M acetic acid and 0.1 M sodium acetate in equal volumes. The pH of the buffer is (pKa of acetic acid = 4.76):",
+    "options": {
+      "A": "4.76",
+      "B": "7.0",
+      "C": "9.24",
+      "D": "2.38"
+    },
+    "correct_answer": "A",
+    "explanation": "Using Henderson-Hasselbalch equation: pH = pKa + log([salt]/[acid]). Since concentrations of acid and salt are equal, log(1) = 0. Therefore pH = pKa = 4.76.",
+    "subject": "Chemistry",
+    "chapter": "Equilibrium",
+    "topic": "Buffer Solutions",
+    "question_type": "Numerical",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "The solubility of AgCl in water is 1.435 × 10⁻⁵ mol/L. The solubility product (Ksp) of AgCl is:",
+    "options": {
+      "A": "2.06 × 10⁻¹⁰",
+      "B": "1.44 × 10⁻⁵",
+      "C": "1.44 × 10⁻¹⁰",
+      "D": "4.12 × 10⁻¹⁰"
+    },
+    "correct_answer": "A",
+    "explanation": "AgCl → Ag⁺ + Cl⁻. If solubility = s, then [Ag⁺] = s, [Cl⁻] = s. Ksp = s² = (1.435 × 10⁻⁵)² = 2.06 × 10⁻¹⁰.",
+    "subject": "Chemistry",
+    "chapter": "Equilibrium",
+    "topic": "Solubility Product",
+    "question_type": "Numerical",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In qualitative analysis, sodium carbonate extract of a salt gives a white precipitate with barium chloride solution that is insoluble in dilute HCl. The anion present is:",
+    "options": {
+      "A": "SO₄²⁻",
+      "B": "CO₃²⁻",
+      "C": "Cl⁻",
+      "D": "NO₃⁻"
+    },
+    "correct_answer": "A",
+    "explanation": "BaCl₂ + Na₂SO₄ → BaSO₄↓ (white) + 2NaCl. BaSO₄ is insoluble in dilute HCl. BaCO₃ would dissolve in dilute HCl with effervescence. This confirms the presence of sulphate ion.",
+    "subject": "Chemistry",
+    "chapter": "Practical Chemistry",
+    "topic": "Qualitative Analysis",
+    "question_type": "MCQ",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "The flame test colour for strontium salts is:",
+    "options": {
+      "A": "Crimson red",
+      "B": "Brick red",
+      "C": "Apple green",
+      "D": "Golden yellow"
+    },
+    "correct_answer": "A",
+    "explanation": "Flame colours: Li and Sr - crimson red, Na - golden yellow, K - violet, Ca - brick red, Ba - apple green, Cu - blue-green. Strontium gives a persistent crimson red flame.",
+    "subject": "Chemistry",
+    "chapter": "Practical Chemistry",
+    "topic": "Flame Test",
+    "question_type": "MCQ",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "The tissue that provides mechanical support in young, growing parts of a plant and has living cells with cellulose thickening at corners is:",
+    "options": {
+      "A": "Collenchyma",
+      "B": "Sclerenchyma",
+      "C": "Parenchyma",
+      "D": "Aerenchyma"
+    },
+    "correct_answer": "A",
+    "explanation": "Collenchyma cells are living, with thickening of cellulose and pectin at the corners (angular collenchyma). They provide mechanical support and flexibility to growing organs like young stems and petioles. Sclerenchyma cells are dead with lignin.",
+    "subject": "Biology",
+    "chapter": "Structural Organisation in Animals and Plants",
+    "topic": "Plant Tissues",
+    "question_type": "MCQ",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Match List-I with List-II:\n\nList-I (Meristematic tissue)\n(A) Apical meristem\n(B) Lateral meristem\n(C) Intercalary meristem\n\nList-II (Location)\n(I) Base of internodes in grasses\n(II) Root and shoot tips\n(III) Vascular cambium and cork cambium",
+    "options": {
+      "A": "(A)-(II), (B)-(III), (C)-(I)",
+      "B": "(A)-(I), (B)-(II), (C)-(III)",
+      "C": "(A)-(III), (B)-(I), (C)-(II)",
+      "D": "(A)-(II), (B)-(I), (C)-(III)"
+    },
+    "correct_answer": "A",
+    "explanation": "Apical meristems are present at root and shoot tips (primary growth). Lateral meristems include vascular cambium and cork cambium (secondary growth, increase in girth). Intercalary meristems occur at the base of internodes and leaf bases in grasses.",
+    "subject": "Biology",
+    "chapter": "Structural Organisation in Animals and Plants",
+    "topic": "Meristematic Tissues",
+    "question_type": "MCQ",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Case Study: A cross-section of a plant organ shows the following features: epidermis with thick cuticle, palisade mesophyll with abundant chloroplasts arranged below the upper epidermis, spongy mesophyll with air spaces, and vascular bundles with bundle sheath.\n\nBased on this, answer: The complex tissue responsible for transport of water and minerals from roots to leaves through this organ is:",
+    "options": {
+      "A": "Xylem",
+      "B": "Phloem",
+      "C": "Collenchyma",
+      "D": "Parenchyma"
+    },
+    "correct_answer": "A",
+    "explanation": "The organ described is a leaf (dorsiventral structure). Xylem is the complex permanent tissue that transports water and dissolved minerals unidirectionally from roots to aerial parts. It consists of tracheids, vessels, xylem parenchyma and xylem fibres. Phloem transports organic food.",
+    "subject": "Biology",
+    "chapter": "Structural Organisation in Animals and Plants",
+    "topic": "Complex Permanent Tissues",
+    "question_type": "Case-Based",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Assertion (A): Bryophytes are called amphibians of the plant kingdom.\nReason (R): Bryophytes require water for the transport of male gametes.\n\nChoose the correct option:",
+    "options": {
+      "A": "Both A and R are true, and R explains A",
+      "B": "Both A and R are true, but R does not explain A",
+      "C": "A is true but R is false",
+      "D": "A is false but R is true"
+    },
+    "correct_answer": "A",
+    "explanation": "Bryophytes are called amphibians because, like amphibians in the animal kingdom, they live on land but depend on water for sexual reproduction. Their flagellated male gametes (antherozoids) need a water medium to swim to the egg (archegonium).",
+    "subject": "Biology",
+    "chapter": "Diversity in Living Organisms",
+    "topic": "Plant Kingdom",
+    "question_type": "Assertion-Reason",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Match List-I with List-II:\n\nList-I (Phylum)\n(A) Porifera\n(B) Cnidaria\n(C) Platyhelminthes\n(D) Annelida\n\nList-II (Characteristic)\n(I) Metamerically segmented body\n(II) Tissue level organisation with cnidocytes\n(III) Acoelomate, dorsoventrally flattened\n(IV) Cellular level organisation with spongocoel",
+    "options": {
+      "A": "(A)-(IV), (B)-(II), (C)-(III), (D)-(I)",
+      "B": "(A)-(II), (B)-(IV), (C)-(I), (D)-(III)",
+      "C": "(A)-(III), (B)-(I), (C)-(II), (D)-(IV)",
+      "D": "(A)-(I), (B)-(III), (C)-(IV), (D)-(II)"
+    },
+    "correct_answer": "A",
+    "explanation": "Porifera: cellular level of organisation with water canal system (spongocoel); Cnidaria: tissue level with stinging cells (cnidocytes/nematocysts); Platyhelminthes: acoelomate flatworms; Annelida: true coelom with metameric segmentation (earthworm, leech).",
+    "subject": "Biology",
+    "chapter": "Diversity in Living Organisms",
+    "topic": "Animal Kingdom",
+    "question_type": "MCQ",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which of the following combinations of characters is correctly matched with its phylum?\n\n(I) Notochord present in larva, gill slits, dorsal tubular nerve cord — Hemichordata\n(II) Jointed appendages, chitinous exoskeleton, open circulatory system — Arthropoda\n(III) Water vascular system, tube feet, pentamerous radial symmetry — Echinodermata\n(IV) Setae for locomotion, closed circulatory system, nephridia — Annelida",
+    "options": {
+      "A": "II, III and IV only",
+      "B": "I, II, III and IV",
+      "C": "I and II only",
+      "D": "II and III only"
+    },
+    "correct_answer": "A",
+    "explanation": "Statement I is incorrect: Hemichordates have a stomochord (not a true notochord). They are not true chordates. Statements II (Arthropoda), III (Echinodermata), and IV (Annelida) are all correctly matched with their phylum characteristics as per NCERT.",
+    "subject": "Biology",
+    "chapter": "Diversity in Living Organisms",
+    "topic": "Animal Kingdom",
+    "question_type": "MCQ",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Blood group O is considered the universal donor because:",
+    "options": {
+      "A": "RBCs lack both A and B antigens on their surface",
+      "B": "Plasma contains both anti-A and anti-B antibodies",
+      "C": "RBCs have both A and B antigens",
+      "D": "Plasma lacks all antibodies"
+    },
+    "correct_answer": "A",
+    "explanation": "Blood group O individuals have neither A nor B antigens on the surface of their RBCs. Therefore, when their RBCs are transfused to recipients of any blood group, there are no antigens to be attacked by the recipient's antibodies. However, O-group plasma contains both anti-A and anti-B antibodies.",
+    "subject": "Biology",
+    "chapter": "Human Physiology",
+    "topic": "Body Fluids and Circulation",
+    "question_type": "MCQ",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Statement-I: The descending limb of loop of Henle is permeable to water but impermeable to electrolytes.\nStatement-II: The ascending limb of loop of Henle is impermeable to water but permeable to electrolytes.\n\nChoose the correct answer:",
+    "options": {
+      "A": "Both statements are correct",
+      "B": "Statement-I is correct but Statement-II is incorrect",
+      "C": "Statement-I is incorrect but Statement-II is correct",
+      "D": "Both statements are incorrect"
+    },
+    "correct_answer": "A",
+    "explanation": "Both statements are correct and describe the countercurrent multiplier mechanism. The descending limb is permeable to water (concentrates filtrate by water loss) but relatively impermeable to NaCl. The ascending limb actively transports NaCl out but is impermeable to water (dilutes filtrate).",
+    "subject": "Biology",
+    "chapter": "Human Physiology",
+    "topic": "Excretory System",
+    "question_type": "Assertion-Reason",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "A person has a heart rate of 75 beats/min and stroke volume of 70 mL. The cardiac output is:",
+    "options": {
+      "A": "5.25 L/min",
+      "B": "5250 mL/s",
+      "C": "0.525 L/min",
+      "D": "52.5 L/min"
+    },
+    "correct_answer": "A",
+    "explanation": "Cardiac output = Heart rate × Stroke volume = 75 × 70 mL = 5250 mL/min = 5.25 L/min. This is the normal cardiac output for a healthy adult at rest, approximately 5 litres per minute.",
+    "subject": "Biology",
+    "chapter": "Human Physiology",
+    "topic": "Body Fluids and Circulation",
+    "question_type": "Numerical",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Statement-I: Vernalisation is the process of inducing flowering by exposing plants to low temperature.\nStatement-II: Some plants like winter wheat require a cold treatment to transition from vegetative to reproductive phase.\n\nChoose the correct answer:",
+    "options": {
+      "A": "Both statements are correct and Statement-II explains Statement-I",
+      "B": "Both statements are correct but Statement-II does not explain Statement-I",
+      "C": "Statement-I is correct but Statement-II is incorrect",
+      "D": "Statement-I is incorrect but Statement-II is correct"
+    },
+    "correct_answer": "A",
+    "explanation": "Vernalisation is the cold treatment required by certain plants (especially biennials and winter annuals like wheat) to acquire the competence to flower. The low temperature exposure promotes flowering by qualitative or quantitative changes. Statement-II gives the example that explains this concept.",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "Photoperiodism and Vernalisation",
+    "question_type": "Assertion-Reason",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In CAM (Crassulacean Acid Metabolism) plants, CO₂ fixation occurs:",
+    "options": {
+      "A": "At night when stomata are open, forming malic acid",
+      "B": "During the day when stomata are open",
+      "C": "At night using RuBisCO enzyme",
+      "D": "During the day when both stomata and mesophyll are active"
+    },
+    "correct_answer": "A",
+    "explanation": "CAM plants (e.g., cacti, Opuntia) open stomata at night to take in CO₂ (reducing water loss). CO₂ is fixed by PEPcase into oxaloacetate, then converted to malic acid stored in vacuoles. During the day, stomata close, malic acid is decarboxylated, and the released CO₂ enters the Calvin cycle.",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "Photosynthesis",
+    "question_type": "MCQ",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "The pyramid of biomass in an aquatic ecosystem (like a pond) is:",
+    "options": {
+      "A": "Inverted",
+      "B": "Always upright",
+      "C": "Spindle-shaped",
+      "D": "Linear"
+    },
+    "correct_answer": "A",
+    "explanation": "In aquatic ecosystems, the pyramid of biomass is inverted because the producers (phytoplankton) have less biomass at any given time than the consumers, due to rapid reproduction and short life span of phytoplankton. The standing crop biomass of consumers exceeds that of producers.",
+    "subject": "Biology",
+    "chapter": "Ecology and Environment",
+    "topic": "Ecosystem",
+    "question_type": "MCQ",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "The pioneer species in primary succession on a bare rock surface is:",
+    "options": {
+      "A": "Lichens (crustose type)",
+      "B": "Mosses",
+      "C": "Grasses",
+      "D": "Shrubs"
+    },
+    "correct_answer": "A",
+    "explanation": "In xerosere (succession on bare rock), crustose lichens are the pioneer species. They secrete acids that weather the rock, creating a thin layer of soil. The sequence is: lichens → mosses → herbs → shrubs → trees (climax community). Each stage makes the habitat more suitable for the next.",
+    "subject": "Biology",
+    "chapter": "Ecology and Environment",
+    "topic": "Ecological Succession",
+    "question_type": "MCQ",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "The inner membrane of mitochondria is folded into cristae. The primary significance of this folding is:",
+    "options": {
+      "A": "To increase surface area for oxidative phosphorylation",
+      "B": "To store DNA molecules",
+      "C": "To protect the matrix enzymes",
+      "D": "To allow diffusion of gases"
+    },
+    "correct_answer": "A",
+    "explanation": "Cristae are the folds of the inner mitochondrial membrane that house the electron transport chain complexes and ATP synthase (F₀-F₁ particles). The increased surface area provides more space for these complexes, allowing greater ATP production through oxidative phosphorylation.",
+    "subject": "Biology",
+    "chapter": "Cell Structure and Function",
+    "topic": "Cell Organelles",
+    "question_type": "MCQ",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Statement-I: The endomembrane system includes ER, Golgi complex, lysosomes and vacuoles.\nStatement-II: Mitochondria and chloroplasts are not part of the endomembrane system.\n\nChoose the correct answer:",
+    "options": {
+      "A": "Both statements are correct",
+      "B": "Statement-I is correct but Statement-II is incorrect",
+      "C": "Statement-I is incorrect but Statement-II is correct",
+      "D": "Both statements are incorrect"
+    },
+    "correct_answer": "A",
+    "explanation": "The endomembrane system includes organelles whose functions are coordinated through membrane connections: ER, Golgi complex, lysosomes, and vacuoles. Mitochondria and chloroplasts are not part of this system because their membranes are not derived from the endomembrane system; they have their own DNA and arise by division (endosymbiotic origin).",
+    "subject": "Biology",
+    "chapter": "Cell Structure and Function",
+    "topic": "Endomembrane System",
+    "question_type": "Assertion-Reason",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In a dihybrid cross between YyRr × YyRr (Y = yellow, y = green; R = round, r = wrinkled), the phenotypic ratio of yellow round : green wrinkled offspring is:",
+    "options": {
+      "A": "9:1",
+      "B": "3:1",
+      "C": "9:3",
+      "D": "1:1"
+    },
+    "correct_answer": "A",
+    "explanation": "In a dihybrid cross YyRr × YyRr, the phenotypic ratio is 9:3:3:1. Yellow round (Y_R_) = 9/16, green round (yyR_) = 3/16, yellow wrinkled (Y_rr) = 3/16, green wrinkled (yyrr) = 1/16. Therefore, ratio of yellow round to green wrinkled = 9:1.",
+    "subject": "Biology",
+    "chapter": "Genetics and Evolution",
+    "topic": "Mendelian Genetics",
+    "question_type": "MCQ",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In a population in Hardy-Weinberg equilibrium, the frequency of the homozygous recessive genotype (aa) is 0.16. The frequency of the heterozygous genotype (Aa) is:",
+    "options": {
+      "A": "0.48",
+      "B": "0.36",
+      "C": "0.32",
+      "D": "0.64"
+    },
+    "correct_answer": "A",
+    "explanation": "In Hardy-Weinberg equilibrium: p² + 2pq + q² = 1. If q² (aa) = 0.16, then q = 0.4. Since p + q = 1, p = 0.6. Frequency of heterozygotes (Aa) = 2pq = 2 × 0.6 × 0.4 = 0.48.",
+    "subject": "Biology",
+    "chapter": "Genetics and Evolution",
+    "topic": "Population Genetics",
+    "question_type": "Numerical",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "The proliferative phase of the menstrual cycle is characterised by:",
+    "options": {
+      "A": "Regeneration of endometrium under the influence of estrogen",
+      "B": "Breakdown of endometrium causing menstrual flow",
+      "C": "Secretion of progesterone by corpus luteum",
+      "D": "Implantation of blastocyst"
+    },
+    "correct_answer": "A",
+    "explanation": "The proliferative (follicular) phase (days 5-14 approximately) is marked by regeneration and thickening of the endometrium under the influence of increasing estrogen secreted by the developing Graafian follicle. This prepares the uterus for possible implantation.",
+    "subject": "Biology",
+    "chapter": "Reproduction",
+    "topic": "Menstrual Cycle",
+    "question_type": "MCQ",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "During microsporogenesis, a microspore mother cell (2n) undergoes meiosis to form a tetrad of microspores. Each microspore develops into a:",
+    "options": {
+      "A": "Male gametophyte (pollen grain)",
+      "B": "Female gametophyte",
+      "C": "Embryo",
+      "D": "Endosperm"
+    },
+    "correct_answer": "A",
+    "explanation": "Microsporogenesis occurs in the pollen sacs of anthers. The diploid microspore mother cell undergoes meiosis to produce four haploid microspores (tetrad). Each microspore develops into a pollen grain (male gametophyte) through mitotic division to form a 2-celled (vegetative + generative) or 3-celled structure.",
+    "subject": "Biology",
+    "chapter": "Reproduction",
+    "topic": "Sexual Reproduction in Flowering Plants",
+    "question_type": "MCQ",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "The first clinical gene therapy was given for the treatment of:",
+    "options": {
+      "A": "Adenosine deaminase (ADA) deficiency",
+      "B": "Cystic fibrosis",
+      "C": "Sickle cell anaemia",
+      "D": "Haemophilia"
+    },
+    "correct_answer": "A",
+    "explanation": "The first approved gene therapy (1990) treated ADA deficiency (a type of SCID - severe combined immunodeficiency). Lymphocytes from the patient were cultured, a functional ADA gene was introduced using a retroviral vector, and the engineered cells were returned to the patient. This corrected the immune deficiency.",
+    "subject": "Biology",
+    "chapter": "Biotechnology and its Applications",
+    "topic": "Gene Therapy",
+    "question_type": "MCQ",
+    "difficulty": "Medium"
+  }
+]

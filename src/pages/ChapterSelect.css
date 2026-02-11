@@ -1,0 +1,619 @@
+.chapter-select {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-top: 64px;
+}
+
+/* Header */
+.select-header {
+  padding: var(--space-lg) var(--space-2xl);
+  border-bottom: 1px solid var(--border-subtle);
+  background: var(--bg-secondary);
+  display: flex;
+  align-items: center;
+  gap: var(--space-xl);
+}
+
+.back-btn {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: var(--space-sm) var(--space-md);
+  background: transparent;
+  color: var(--text-secondary);
+  font-family: var(--font-display);
+  font-size: 0.875rem;
+  border-radius: var(--radius-md);
+  transition: all var(--transition-fast);
+}
+
+.back-btn:hover {
+  background: var(--bg-tertiary);
+  color: var(--text-primary);
+}
+
+.header-title h1 {
+  font-size: 1.75rem;
+  margin-bottom: var(--space-xs);
+}
+
+.header-title p {
+  font-size: 1rem;
+  color: var(--text-secondary);
+}
+
+/* Content Layout */
+.select-content {
+  display: flex;
+  flex: 1;
+}
+
+/* Sidebar */
+.select-sidebar {
+  width: 320px;
+  padding: var(--space-xl);
+  border-right: 1px solid var(--border-subtle);
+  background: var(--bg-secondary);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xl);
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.sidebar-section h3 {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-muted);
+  margin-bottom: var(--space-md);
+}
+
+.subject-filters {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.filter-btn {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: var(--space-md);
+  background: transparent;
+  color: var(--text-secondary);
+  font-family: var(--font-display);
+  font-size: 0.9375rem;
+  text-align: left;
+  border-radius: var(--radius-md);
+  border: 1px solid transparent;
+  transition: all var(--transition-fast);
+}
+
+.filter-btn:hover {
+  background: var(--bg-tertiary);
+  color: var(--text-primary);
+}
+
+.filter-btn.active {
+  background: var(--accent-glow);
+  border-color: var(--accent-primary);
+  color: var(--accent-primary);
+}
+
+.filter-btn.subject-physics.active {
+  background: var(--physics-glow);
+  border-color: var(--physics-primary);
+  color: var(--physics-primary);
+}
+
+.filter-btn.subject-chemistry.active {
+  background: var(--chemistry-glow);
+  border-color: var(--chemistry-primary);
+  color: var(--chemistry-primary);
+}
+
+.filter-btn.subject-biology.active {
+  background: var(--biology-glow);
+  border-color: var(--biology-primary);
+  color: var(--biology-primary);
+}
+
+.filter-icon {
+  font-size: 1.25rem;
+}
+
+/* Search */
+.search-box {
+  position: relative;
+}
+
+.search-icon {
+  position: absolute;
+  left: var(--space-md);
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--text-muted);
+}
+
+.search-box input {
+  width: 100%;
+  padding-left: 44px;
+}
+
+/* Action button */
+.action-btn {
+  width: 100%;
+  padding: var(--space-md);
+  background: var(--bg-tertiary);
+  color: var(--text-primary);
+  font-family: var(--font-display);
+  font-size: 0.875rem;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-subtle);
+  transition: all var(--transition-fast);
+}
+
+.action-btn:hover {
+  border-color: var(--accent-primary);
+  background: var(--accent-glow);
+}
+
+/* Selection Summary */
+.selection-summary {
+  margin-top: auto;
+  padding: var(--space-lg);
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+}
+
+.summary-stat {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--space-sm) 0;
+}
+
+.summary-stat:not(:last-of-type) {
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.summary-value {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--accent-primary);
+}
+
+.summary-label {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+}
+
+.start-btn {
+  width: 100%;
+  margin-top: var(--space-md);
+  justify-content: center;
+}
+
+.start-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Main Content */
+.chapters-main {
+  flex: 1;
+  padding: var(--space-xl);
+  overflow-y: auto;
+}
+
+/* Subject Group */
+.subject-group {
+  margin-bottom: var(--space-2xl);
+}
+
+.subject-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--space-lg);
+  padding-bottom: var(--space-md);
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.subject-info {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+}
+
+.subject-info h2 {
+  font-size: 1.5rem;
+}
+
+.subject-physics .subject-info h2 { color: var(--physics-primary); }
+.subject-chemistry .subject-info h2 { color: var(--chemistry-primary); }
+.subject-biology .subject-info h2 { color: var(--biology-primary); }
+
+.chapter-count {
+  padding: var(--space-xs) var(--space-sm);
+  background: var(--bg-tertiary);
+  border-radius: var(--radius-full);
+  font-family: var(--font-display);
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+.select-subject-btn {
+  padding: var(--space-sm) var(--space-md);
+  background: transparent;
+  color: var(--text-secondary);
+  font-family: var(--font-display);
+  font-size: 0.875rem;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-subtle);
+  transition: all var(--transition-fast);
+}
+
+.select-subject-btn:hover {
+  border-color: var(--accent-primary);
+  color: var(--accent-primary);
+}
+
+/* Chapters Grid */
+.chapters-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: var(--space-md);
+}
+
+.chapter-card {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-md);
+  padding: var(--space-lg);
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  cursor: pointer;
+  transition: all var(--transition-normal);
+}
+
+.chapter-card:hover {
+  border-color: var(--border-medium);
+  box-shadow: var(--shadow-md);
+}
+
+.chapter-card.selected {
+  border-color: var(--accent-primary);
+  background: var(--accent-glow);
+}
+
+.subject-physics .chapter-card.selected {
+  border-color: var(--physics-primary);
+  background: var(--physics-glow);
+}
+
+.subject-chemistry .chapter-card.selected {
+  border-color: var(--chemistry-primary);
+  background: var(--chemistry-glow);
+}
+
+.subject-biology .chapter-card.selected {
+  border-color: var(--biology-primary);
+  background: var(--biology-glow);
+}
+
+.chapter-checkbox {
+  flex-shrink: 0;
+}
+
+.checkbox {
+  width: 22px;
+  height: 22px;
+  border: 2px solid var(--border-medium);
+  border-radius: var(--radius-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all var(--transition-fast);
+}
+
+.chapter-card.selected .checkbox {
+  background: var(--accent-primary);
+  border-color: var(--accent-primary);
+}
+
+.subject-physics .chapter-card.selected .checkbox {
+  background: var(--physics-primary);
+  border-color: var(--physics-primary);
+}
+
+.subject-chemistry .chapter-card.selected .checkbox {
+  background: var(--chemistry-primary);
+  border-color: var(--chemistry-primary);
+}
+
+.subject-biology .chapter-card.selected .checkbox {
+  background: var(--biology-primary);
+  border-color: var(--biology-primary);
+}
+
+.checkbox svg {
+  color: var(--bg-primary);
+}
+
+.chapter-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.chapter-content h3 {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: var(--space-sm);
+  color: var(--text-primary);
+}
+
+.chapter-topics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-xs);
+}
+
+.topic-tag {
+  padding: 2px 8px;
+  background: var(--bg-tertiary);
+  border-radius: var(--radius-sm);
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+.topic-more {
+  padding: 2px 8px;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+.chapter-meta {
+  flex-shrink: 0;
+}
+
+.question-count {
+  font-family: var(--font-mono);
+  font-size: 0.8125rem;
+  color: var(--text-muted);
+  background: var(--bg-tertiary);
+  padding: var(--space-xs) var(--space-sm);
+  border-radius: var(--radius-sm);
+}
+
+/* No Results */
+.no-results {
+  text-align: center;
+  padding: var(--space-3xl);
+  color: var(--text-muted);
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .select-content {
+    flex-direction: column;
+  }
+
+  .select-sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-right: none;
+    border-bottom: 1px solid var(--border-subtle);
+  }
+
+  .sidebar-section {
+    flex: 1;
+    min-width: 200px;
+  }
+
+  .selection-summary {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: var(--space-lg);
+    margin-top: 0;
+  }
+
+  .summary-stat {
+    flex-direction: column;
+    gap: var(--space-xs);
+    border: none !important;
+    padding: 0;
+  }
+
+  .start-btn {
+    width: auto;
+    margin-top: 0;
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 640px) {
+  .select-header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: var(--space-md);
+  }
+
+  .select-sidebar {
+    padding: var(--space-md);
+    flex-direction: column;
+  }
+
+  .selection-summary {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .summary-stat {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .start-btn {
+    width: 100%;
+    margin-left: 0;
+    margin-top: var(--space-md);
+  }
+
+  .chapters-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .chapter-card {
+    padding: var(--space-md);
+  }
+}
+
+/* NEET Mock Test Banner */
+.neet-mock-banner {
+  margin: var(--space-xl) var(--space-2xl);
+  background: linear-gradient(135deg, var(--bg-card) 0%, var(--bg-secondary) 100%);
+  border: 2px solid var(--accent-primary);
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  position: relative;
+}
+
+.neet-mock-banner::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--accent-glow);
+  opacity: 0.3;
+}
+
+.mock-banner-content {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: var(--space-xl);
+  padding: var(--space-xl) var(--space-2xl);
+}
+
+.mock-banner-icon {
+  flex-shrink: 0;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--accent-primary);
+  border-radius: 50%;
+  color: white;
+}
+
+.mock-banner-text {
+  flex: 1;
+}
+
+.mock-banner-text h2 {
+  font-size: 1.75rem;
+  margin-bottom: var(--space-xs);
+  color: var(--text-primary);
+}
+
+.mock-banner-text > p {
+  color: var(--text-secondary);
+  margin-bottom: var(--space-md);
+}
+
+.mock-banner-stats {
+  display: flex;
+  gap: var(--space-lg);
+  margin-bottom: var(--space-md);
+}
+
+.mock-banner-stats span {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  padding: var(--space-xs) var(--space-sm);
+  background: var(--bg-tertiary);
+  border-radius: var(--radius-sm);
+}
+
+.mock-banner-stats span strong {
+  color: var(--accent-primary);
+  font-weight: 600;
+}
+
+.mock-banner-subjects {
+  display: flex;
+  gap: var(--space-sm);
+}
+
+.subject-pill {
+  padding: var(--space-xs) var(--space-md);
+  border-radius: var(--radius-full);
+  font-size: 0.8125rem;
+  font-weight: 500;
+}
+
+.subject-pill.physics {
+  background: var(--physics-glow);
+  color: var(--physics-primary);
+  border: 1px solid var(--physics-primary);
+}
+
+.subject-pill.chemistry {
+  background: var(--chemistry-glow);
+  color: var(--chemistry-primary);
+  border: 1px solid var(--chemistry-primary);
+}
+
+.subject-pill.biology {
+  background: var(--biology-glow);
+  color: var(--biology-primary);
+  border: 1px solid var(--biology-primary);
+}
+
+.mock-banner-btn {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: var(--space-lg) var(--space-2xl);
+  font-size: 1.125rem;
+}
+
+@media (max-width: 900px) {
+  .neet-mock-banner {
+    margin: var(--space-md);
+  }
+
+  .mock-banner-content {
+    flex-direction: column;
+    text-align: center;
+    padding: var(--space-lg);
+  }
+
+  .mock-banner-stats,
+  .mock-banner-subjects {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .mock-banner-btn {
+    width: 100%;
+    justify-content: center;
+  }
+}

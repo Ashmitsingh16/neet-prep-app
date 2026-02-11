@@ -1,0 +1,10 @@
+/* App-level styles */
+#root {
+  min-height: 100vh;
+}
+
+/* Navbar spacing — every page except /test gets top padding.
+   The MockTest component is full-screen so it handles its own layout. */
+.app-content {
+  /* Leave room for the fixed 64px navbar */
+}
