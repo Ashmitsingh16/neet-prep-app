@@ -2,13 +2,10 @@ import { useState, useEffect, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { getQuestionsForChapters, getFullMockQuestions, getFullNEETMockQuestions, NEET_CONFIG } from '../data/questions';
-import { useAuth } from '../context/AuthContext';
-import { submitTest } from '../services/api';
 import './MockTest.css';
 
 const MockTest = ({ testConfig, setTestResults }) => {
   const navigate = useNavigate();
-  const { user } = useAuth();
 
   const [questions, setQuestions] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -182,33 +179,7 @@ const MockTest = ({ testConfig, setTestResults }) => {
     setTestResults(results);
     navigate('/results');
 
-    // Fire-and-forget: submit to backend if logged in
-    if (user) {
-      const testType = testConfig.mode === 'neet' ? 'neet'
-        : testConfig.mode === 'full' ? 'full' : 'chapter';
-
-      const initialTime = testConfig.mode === 'neet'
-        ? NEET_CONFIG.duration * 60
-        : testConfig.mode === 'full'
-          ? Math.max(180 * questions.length, 1800)
-          : Math.max(questions.length * 90, 1800);
-
-      submitTest({
-        testType,
-        timeTaken: initialTime - timeRemaining,
-        questions: questionResults.map((q) => ({
-          subject: q.subject,
-          chapter: q.chapter,
-          userAnswer: q.userAnswer ?? null,
-          correctIndex: q.correct,
-          isCorrect: !!q.isCorrect,
-          isAttempted: q.isAttempted,
-        })),
-      }).catch(() => {
-        // Silently fail — don't break UX
-      });
-    }
-  }, [questions, answers, testConfig, timeRemaining, setTestResults, navigate, user]);
+  }, [questions, answers, testConfig, timeRemaining, setTestResults, navigate]);
 
   const getQuestionStatus = (index) => {
     const isAnswered = answers[index] !== undefined;

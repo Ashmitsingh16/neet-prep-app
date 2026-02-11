@@ -1,10 +1,8 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { useAuth } from '../context/AuthContext';
 import './Navbar.css';
 
 const Navbar = () => {
-  const { user, logout } = useAuth();
   const location = useLocation();
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -46,34 +44,6 @@ const Navbar = () => {
           >
             Practice
           </Link>
-          {user && (
-            <Link
-              to="/dashboard"
-              className={`nav-link ${isActive('/dashboard') ? 'active' : ''}`}
-              onClick={() => setMenuOpen(false)}
-            >
-              Dashboard
-            </Link>
-          )}
-        </div>
-
-        <div className={`navbar-auth ${menuOpen ? 'open' : ''}`}>
-          {user ? (
-            <div className="user-menu">
-              <span className="user-name">{user.name}</span>
-              <button className="btn-logout" onClick={() => { logout(); setMenuOpen(false); }}>
-                Logout
-              </button>
-            </div>
-          ) : (
-            <Link
-              to="/auth"
-              className="btn-login"
-              onClick={() => setMenuOpen(false)}
-            >
-              Login
-            </Link>
-          )}
         </div>
       </div>
     </nav>

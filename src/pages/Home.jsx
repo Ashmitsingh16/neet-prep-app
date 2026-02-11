@@ -1,11 +1,9 @@
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { useAuth } from '../context/AuthContext';
 import './Home.css';
 
 const Home = () => {
   const navigate = useNavigate();
-  const { user } = useAuth();
 
   const features = [
     {
@@ -197,15 +195,9 @@ const Home = () => {
             <button className="btn btn-primary btn-lg" onClick={() => navigate('/select')}>
               Get Started Now
             </button>
-            {user ? (
-              <button className="btn btn-secondary btn-lg" onClick={() => navigate('/dashboard')}>
-                View Dashboard
-              </button>
-            ) : (
-              <button className="btn btn-secondary btn-lg" onClick={() => navigate('/auth')}>
-                Login to Track Progress
-              </button>
-            )}
+            <button className="btn btn-secondary btn-lg" onClick={() => navigate('/select?mode=full')}>
+              Take Full Mock Test
+            </button>
           </div>
         </motion.div>
       </section>
